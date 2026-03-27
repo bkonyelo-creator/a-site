@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import "./App.css";
 
-// ─── CONSTANTS ────────────────────────────────────────────────────────────────
 
 const PETAL_DATA = Array.from({ length: 22 }, (_, i) => ({
   id: i,
@@ -105,7 +104,6 @@ function Petals() {
   );
 }
 
-// ─── FLOWER STEM ──────────────────────────────────────────────────────────────
 
 function FlowerStem({ variant }) {
   const fallClass =
@@ -128,7 +126,6 @@ function FlowerStem({ variant }) {
   );
 }
 
-// ─── PAGE 1: FLOWER ───────────────────────────────────────────────────────────
 
 function PageFlower({ isActive, onNext }) {
   const [stars, setStars] = useState([]);
@@ -249,8 +246,8 @@ function PageLetter({ isActive, onNext }) {
         <div className="letter-card">
           <div className="letter-text">
             <p>
-              hi my love! I know I’m not really good at things like this, and it
-              might sound a bit cringe, but I still wanted to do this for you. I
+              hi my love! I know I’m not really good at things like this, and sound so cringe, 
+              but I still wanted to do this for you. I
               know I hurt you, and I’m really sorry for what I did. I broke my
               promise, and I understand why you felt disappointed in me. I knew
               from the very beginning that you were already uncomfortable when I
