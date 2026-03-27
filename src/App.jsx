@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import "./App.css";
 
-
 const PETAL_DATA = Array.from({ length: 22 }, (_, i) => ({
   id: i,
   left: `${(i * 4.5 + Math.sin(i) * 8) % 100}%`,
@@ -104,7 +103,6 @@ function Petals() {
   );
 }
 
-
 function FlowerStem({ variant }) {
   const fallClass =
     variant === "f-wrapper--2"
@@ -125,7 +123,6 @@ function FlowerStem({ variant }) {
     </div>
   );
 }
-
 
 function PageFlower({ isActive, onNext }) {
   const [stars, setStars] = useState([]);
@@ -210,7 +207,6 @@ function PageFlower({ isActive, onNext }) {
   );
 }
 
-
 const LETTER_BG_ITEMS = Array.from({ length: 16 }, (_, i) => ({
   id: i,
   emoji: BG_FLOWERS[i % BG_FLOWERS.length],
@@ -246,12 +242,12 @@ function PageLetter({ isActive, onNext }) {
         <div className="letter-card">
           <div className="letter-text">
             <p>
-              hi my love! I know I’m not really good at things like this, and sound so cringe, 
-              but I still wanted to do this for you. I
-              know I hurt you, and I’m really sorry for what I did. I broke my
-              promise, and I understand why you felt disappointed in me. I knew
-              from the very beginning that you were already uncomfortable when I
-              talked to that person, and I was wrong for not respecting that.
+              hi my love! I know I’m not really good at things like this, and
+              sound so cringe, but I still wanted to do this for you. I know I
+              hurt you, and I’m really sorry for what I did. I broke my promise,
+              and I understand why you felt disappointed in me. I knew from the
+              very beginning that you were already uncomfortable when I talked
+              to that person, and I was wrong for not respecting that.
             </p>
 
             <p>
@@ -355,8 +351,7 @@ function PageGallery({ isActive }) {
       <div className="gallery-footer-msg">
         <p>
           Every moment with you is something I never want to lose.
-          <br />
-          I love you so much my ris ♡
+          <br />I love you so much my ris ♡
         </p>
       </div>
     </div>
