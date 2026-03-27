@@ -289,8 +289,7 @@ function PageLetter({ isActive, onNext }) {
             </p>
 
             <p>
-              I love you so much, and I’ll be better po mahal not just for you,
-              but for us.
+              I love you so much, and I’ll be better po mahal promise.
             </p>
           </div>
 
